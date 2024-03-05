@@ -3,17 +3,18 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Portifolio de Gabriel</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Luiz Gabriel</title>
+    
 </head>
 
 <body>
-    <div>
-            <H1>Luiz Gabriel</H1>
+    <div class="titulo" >
+            <h1>Luiz Gabriel</h1>
 
             <h2> Sobre Mim </h2>
-
-
+    </div>    
+    <div>
             <img src="https://media.licdn.com/dms/image/D4D03AQE94URd190WoA/profile-displayphoto-shrink_800_800/0/1697588881192?e=1714608000&v=beta&t=galCt5jF_o1okHwmAzHQamVW-AFR1Rp2Ndg3pi6Yz1k"
         alt="" width="20%" height="20%">
              <br>
@@ -35,7 +36,7 @@
 
         <H3>Redes Sociais:</H3>
 
-        <ul>
+        <ul > 
             <li> <a href="https://github.com/luizgabrielmello"> GitHub </a></li>
             <li> <a href="https://www.linkedin.com/in/luiz-gabriel-mello-540636a0/"> Linkedin </a></li>
             <li> <a href="https://www.instagram.com/"> Instagram </a></li>
@@ -43,6 +44,36 @@
         </ul>
     </div>
 
-</body>
 
+    <div>
+        <form action="portifolio.html" method="GET">
+
+            <label for="nome"> Nome </label>
+            <input type="text" nome="nome" id="nome" >
+            
+            <br>
+            
+            <label for="sobrenome"> Sobrenome </label>
+            <input type="text" name="sobrenome"   id="csobrenome">
+
+            <br>
+            
+            <label for="email"> E-mail </label>
+            <input type="email" name="email"   id="email">
+
+            <br>
+
+            <!-- <label for="contato"> Contato </label>
+            <input type="radio"  name="contato"   id="contato">  
+            
+            -->
+            <button class="botao" type="submit"> enviar </button>
+
+
+
+        </form>
+
+    </div>
+
+</body>
 </html>

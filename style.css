@@ -1,4 +1,51 @@
+body { 
+    
+    
+    margin: 0px;
+    font-family: Helvetica;
+
+
+}
+
+
 img {
+
     width: 20%;
     height: auto;
 }
+
+li:hover {
+
+
+color: aquamarine;    
+
+background-color: #00c3ff;
+
+
+}
+
+.titulo {
+
+
+background-color: aqua;
+
+}
+
+
+.botao:hover {
+
+background-color: aquamarine;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
