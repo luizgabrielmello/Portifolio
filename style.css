@@ -1,51 +1,79 @@
 body { 
-    
-    
-    margin: 0px;
+
     font-family: Helvetica;
+}
+
+
+.bg-primary-color {
+
+    background-color: rgb(3, 0, 48);
+
+}
+
+.bg-secundary-color {
+
+
+    background-color: cyan;
+
+}
+
+.primary-color {
+    font-size: large;
+    color: lightblue
+}
+
+.bg-secundary-color {
+
+    color: black;
+
+}
+
+#navbar a:hover {
+
+
+    color: rgb(3, 0, 48);
+    background-color: lightblue;
+
+}
+
+a:hover {
+
+
+color: rgb(3,0,48);
+background-color: lightblue;
 
 
 }
 
 
-img {
 
-    width: 20%;
+.navbar-brand span {
+    font-size: 1.7em;
+    font-weight: 700;
+    margin-left: 0.0em;
+    color: lightblue; }
+
+#navbar-items .navbar-nav {
+display: flex;
+justify-content: center;
+width: 100%;
+}
+
+
+#navbar-items .nav-item {
+
+
+     margin: 0 1em;
+
+}
+
+.foto img {
+    
+    margin-top: 8%;
+    margin-left: 10px;
+    justify-content: center;
+    max-width: 20%;
     height: auto;
-}
-
-li:hover {
-
-
-color: aquamarine;    
-
-background-color: #00c3ff;
-
-
-}
-
-.titulo {
-
-
-background-color: aqua;
-
-}
-
-
-.botao:hover {
-
-background-color: aquamarine;
-
-
-
-}
-
-
-
-
-
-
-
-
+  }
 
 
