@@ -1,5 +1,5 @@
 body { 
-
+    margin-left: 15px;
     font-family: Helvetica;
 }
 
@@ -45,6 +45,14 @@ background-color: lightblue;
 
 }
 
+a {
+
+    text-decoration: none;
+    color: black
+    
+
+    
+}
 
 
 .navbar-brand span {
@@ -69,11 +77,38 @@ width: 100%;
 
 .foto img {
     
-    margin-top: 8%;
-    margin-left: 10px;
+    
+    margin-top: 10%;
     justify-content: center;
     max-width: 20%;
     height: auto;
   }
 
 
+#nome {
+
+margin-left: 51px;
+margin-top: 30px;
+
+}
+
+#sobrenome {
+
+margin-left: 11px;
+margin-top: 10px;
+
+}
+
+#email {
+
+margin-left: 48px;
+margin-top: 10px;
+
+}
+
+#textarea {
+
+margin-left: 14px;
+margin-top: 10px;
+
+}
