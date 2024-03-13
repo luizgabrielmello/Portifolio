@@ -22,9 +22,19 @@
 
 <body>
         <!--Navegacao-->
-    <header>
+    <header class="bg-primary-color">
+        <div class="bg-primary-color">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                                            
+                    </div>    
+
+                </div>    
+            </div>
+        </div>
         <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
-            <div class="container py-3">
+            <div class="container-fluid">
 
 
                 <div class="navbar-brand primary color">
@@ -39,6 +49,8 @@
                 aria-expanded="false"
                 aria-label="toggle navigation"
                 >
+                <span class="navbar-toggler-icon bg-secundary-color"></span>
+               
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbar-items"> 
@@ -60,7 +72,7 @@
             </div>
         </nav>
     </header>    
-
+    
         <!--body-->
 
         <div class="foto">
@@ -122,7 +134,8 @@
                         <label for="mensagem"> Mensagem </label>
                         <textarea name="mensagem" id="mensagem"></textarea>
                         
-                        <input type="submit" value="Enviar">
+                        
+                        <button class="btn btn-primary" type="submit">Button</button>
                     </form>
 
 
