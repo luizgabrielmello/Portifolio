@@ -22,6 +22,7 @@
 
 <body>
         <!--Navegacao-->
+    <header>
         <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
             <div class="container py-3">
 
@@ -32,14 +33,13 @@
                 <button 
                 class="navbar-toggler"
                 type="button" 
-                data-bs-toggle="colapse"
+                data-bs-toggle="collapse"
                 data-bs-target="#navbar-items"
                 aria-controls="navbar-items"
                 aria-expanded="false"
                 aria-label="toggle navigation"
                 >
                 </button>
-
 
                 <div class="collapse navbar-collapse" id="navbar-items"> 
                 <ul class="navbar-nav me-auto mb-2 lg-0">
@@ -59,7 +59,7 @@
                 </ul>       
             </div>
         </nav>
-
+    </header>    
 
         <!--body-->
 
@@ -108,29 +108,25 @@
         
         
                  <div>
-                        <form action="portifolio.html" method="GET">
-
+                    
+                    <form action="portifolio.html" method="GET">
                         <label for="nome"> Nome </label>
-                        <input type="text" nome="nome" id="nome" >
+                        <input type="text" name="nome" id="nome" >
                         <br>
                         <label for="sobrenome"> Sobrenome </label>
-                        <input type="text" name="sobrenome"   id="sobrenome">
+                        <input type="text" name="sobrenome" id="sobrenome">
                         <br>
                         <label for="email"> E-mail </label>
-                        <input type="email" name="email"   id="email">
+                        <input type="email" name="email" id="email">
                         <br>
                         <label for="mensagem"> Mensagem </label>
-                        <textarea type="textarea" name="textarea" id="textarea">    
+                        <textarea name="mensagem" id="mensagem"></textarea>
                         
-                        
-
-                        
-                        <input type="submit" value="Enviar" >
-                        
+                        <input type="submit" value="Enviar">
                     </form>
 
 
-                        <button type="button" >botao teste</button>
+                      
         
                 </div>
         </section>
