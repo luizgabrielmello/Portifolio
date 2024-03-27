@@ -1,8 +1,10 @@
 body {
-    
+    margin-left: 5%;
     align-items: center;
     justify-content: center;
   }
+
+  
 ul {
     list-style-type: none;
     justify-content: center;
@@ -189,4 +191,16 @@ color: lightblue;
     color: rgb(3, 0, 48);
 
 
+}
+
+
+    .video {
+      
+            
+            
+            margin: auto;
+            width: 80%;
+            height: auto;
+            display: block;
+        
 }
